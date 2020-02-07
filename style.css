@@ -1,0 +1,108 @@
+
+.col-lg-3 img{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+}
+
+.col-lg-3{
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
+
+.checked{
+    color: yellow;
+}
+
+
+
+.container-home{
+    background-image: url("snow-covered-mountain-under-white-sky-3583201.jpg");
+    height: 400px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-search input{
+    border-radius: 5px;
+    border-color: transparent;
+}
+.container-search button{
+    background-color: transparent;
+    border: transparent;
+}
+.container-search button i{
+  color: white;
+}
+.col-lg-3 pre{
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
+
+.mycontainer{
+    height: auto;
+    padding: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+.slider img{
+    width: 50%;
+    height: 50%;
+}
+
+.my-form{
+    margin: 20px;
+    text-align: center;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.my-form input{
+    background-color: white;
+}
+
+.my-form label{
+    text-align: right;
+}
+
+.my-button{
+ display: flex;
+ justify-content: center;
+}
+
+.my-button button{
+    background-color: palevioletred;
+    border: palevioletred;
+}
+.my-button button:hover{
+    background-color: violet;
+
+}
+h1{
+    text-align: center;
+}
+
+
+
+
